@@ -1,2 +1,0 @@
-this is to check if the commit message appeaars for this file 
-second test to see if the git commit open with code.
