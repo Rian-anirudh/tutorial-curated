@@ -1,0 +1,16 @@
+/* styles.css */
+
+.bt_style1,
+.bt_style2{
+    font-size: 24px;
+    font-family: "Helvetica", 'Times New Roman', sans-serif;
+}
+
+.bt_style1{
+    color: #fff;
+    background-color: rgb(0, 0, 0)
+}
+
+.bt_style2{
+    background-color: rgb(255, 217, 0)
+}
