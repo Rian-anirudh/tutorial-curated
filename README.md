@@ -63,6 +63,8 @@ The basic sytaxes and elements used for styling in css are described below.
 
 [Refernce:Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE)
 
+<br />
+
 **Chrome-dev Tools**
 
 <img src="./resources/chrome_devTools.png" alt="chrome-dev tools" style="width:900px; height:auto">
