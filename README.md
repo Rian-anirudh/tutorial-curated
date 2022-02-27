@@ -22,14 +22,14 @@ The basic sytaxes and elements used for styling in css are described below.
 
 **Important syntax parameters included for styling box models in css.**
 
--Padding 
--Border
--Margin
+- Padding 
+- Border
+- Margin
 
 Element (like text,img... in the selector) properties for the box model include:
 
--height 
--width
+- Height 
+- Width
 
 <br />
 <br />
