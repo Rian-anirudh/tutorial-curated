@@ -68,5 +68,7 @@ The basic sytaxes and elements used for styling in css are described below.
 
 **Chrome-dev Tools**
 
+Chrome-dev tools are a great help to visualize and make changes to the box and their design parameters. 
+
 <img src="./resources/chrome_devTools.png" alt="chrome-dev tools" style="width:900px; height:auto">
 
