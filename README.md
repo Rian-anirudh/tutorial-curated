@@ -59,9 +59,9 @@ The basic sytaxes and elements used for styling in css are described below.
 ```
 **Outcome**
 
-![css-box outcome](./resources/outcome_cssbox.png)
-
 [Refernce:Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE)
+
+![css-box outcome](./resources/outcome_cssbox.png)
 
 <br />
 
