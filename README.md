@@ -25,8 +25,12 @@ The basic sytaxes and elements used for styling in css are described below.
 - Padding 
 - Border
 - Margin
+- Box-sizing 
+    - Border-box: Makes the height and box account for the padding and border of the element.<br />That is the height and width given are used as the height and with of the box, and the border and padding fit into it.
 
-Element (like text,img... in the selector) properties for the box model include:
+<br />
+
+**Element (like text,img... in the selector) properties for the box model include:**
 
 - Height 
 - Width
@@ -53,5 +57,13 @@ Element (like text,img... in the selector) properties for the box model include:
 
 }
 ```
-***Outcome***
+**Outcome**
+
 ![css-box outcome](./resources/outcome_cssbox.png)
+
+[Refernce:Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE)
+
+**Chrome-dev Tools**
+
+<img src="./resources/chrome_devTools.png" alt="chrome-dev tools" style="width:900px; height:auto">
+
