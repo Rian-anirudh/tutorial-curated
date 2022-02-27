@@ -1,0 +1,18 @@
+/* style.css */
+
+.ancestor .parent{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 225, 56);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+
+.ancestor .parent .child{
+    color: rgba(0, 0, 0, 0.493);
+    background-color: aliceblue;
+    font-weight: 500;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
