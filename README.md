@@ -69,14 +69,16 @@ If the padding property has four values:
 ```
 **Outcome**
 
-![css-box outcome](./resources/outcome_cssbox.png)
-
 [Refernce:Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE)
+
+![css-box outcome](./resources/outcome_cssbox.png)
 
 <br />
 
 
 **Chrome-dev Tools**
+
+Chrome-dev tools are a great help to visualize and make changes to the box and their design parameters. 
 
 <img src="./resources/chrome_devTools.png" alt="chrome-dev tools" style="width:900px; height:auto">
 
