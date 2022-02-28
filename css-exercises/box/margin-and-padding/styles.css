@@ -1,0 +1,38 @@
+/*styles.css*/
+
+.box1{
+    background-color: rgb(236, 176, 201);
+    color: black;
+    border: 4px solid blue;
+    margin: 10px 20px;
+    padding: 20px;
+    /*inner box*/
+    height: 30px;
+    width: 500px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+.box2{
+    background-color: skyblue;
+    border: 4px solid rgb(85, 13, 13);
+    margin: 10px;
+    padding: 0px;
+    /*inner box*/
+    height: auto;
+    width: 560px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+.box3{
+    background-color: rgb(235, 200, 135);
+    border: 4px solid rgb(170, 30, 30);
+    margin: 50px 190px;
+    padding: 40px;
+    /*inner box*/
+    height: 30px;
+    width: 300px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
