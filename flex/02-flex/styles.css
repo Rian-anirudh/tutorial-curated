@@ -1,0 +1,16 @@
+.box{
+    border: 2px solid black;
+    width: 600px;
+    display: flex;
+}
+
+.box div{
+    border: 5px solid rgb(170, 213, 248);
+    height: 100px;
+    width: 200px;
+    flex: 1 1 auto;
+}
+
+.box .two{
+    flex-shrink: 1;
+}
