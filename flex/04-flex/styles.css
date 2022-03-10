@@ -1,0 +1,73 @@
+/*styles.css*/
+
+h1,h2{
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+}
+
+.test{
+    display: flex;
+    /*border:2px solid black;*/
+    font-family: monospace;
+    font-weight: 500px;
+    padding:10px;
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    gap:2px;
+}
+
+.test div{
+    /*border: 1px solid black;*/
+    text-align: center;
+    height: 200px;
+    width:200px;
+    flex: 1 1 auto;
+}
+
+.test img{
+    /*Here it must be specially noted for the images of different sizes*/
+    /*keeping the width auto and defining the heght helps us to scale accurately*/
+    width:  auto;
+    height: 100px;
+    object-fit: cover;
+}
+
+/*This is how we address a class nested within a container inside another container*/
+/*note: .header .pumkin, img .pumkin  do not address or modify the respective class*/
+/*div .pumkin is the right syntax use for this case*/
+
+/*div .pumkin{
+    height:70%; 
+}*/
+
+
+/*Another approach*/
+.info{
+    display: flex;
+    width: 80%;
+    height: auto;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    padding:10px;
+}
+
+.info div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.info img{
+    width: 100px;
+    height: 100px;
+}
+
+.info p{
+    width: 200px;
+    height: 50px;
+}
