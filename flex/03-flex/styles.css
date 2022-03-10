@@ -1,0 +1,56 @@
+/*styles.css*/
+
+/*Syntax to remove bulletin point*/
+ul{list-style: none;}
+/*Syntax to remove the hypertext underline*/
+a{text-decoration: none;}
+
+
+
+.header{
+    display: flex;
+    background: white;
+    /*border:5px solid purple;*/
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    /*border:1px solid purple;*/
+    margin:0;
+    padding:0;
+    gap:8px;
+}
+
+.header a{
+    color: purple;
+    font-family: Besley, serif;
+    /*border: 1px solid black;*/
+    font-size: large;
+}
+
+.header .logo{
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.header .notf{
+    /*Note: syntax for curved corners in css*/
+    border-radius: 25px;
+    background: purple;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.header .crl{
+    background: purple;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+}
