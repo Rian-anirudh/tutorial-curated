@@ -1,11 +1,11 @@
 /*styles.css*/
-
-h1,h2{
+body{
     font-family: monospace;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .test{
@@ -18,14 +18,13 @@ h1{
     width: 80%;
     justify-content: center;
     margin: 0 auto;
-    gap:2px;
+    gap:52px;
 }
 
 .test div{
     /*border: 1px solid black;*/
     text-align: center;
-    height: 200px;
-    width:200px;
+    max-width:200px;
     flex: 1 1 auto;
 }
 
@@ -49,25 +48,76 @@ h1{
 /*Another approach*/
 .info{
     display: flex;
-    width: 80%;
-    height: auto;
     /*border: 2px solid black;*/
-    margin: 0 auto;
+    justify-content: center;
     padding:10px;
+    border: 2px solid rgb(166, 212, 243);
+    gap: 52px;
 }
 
 .info div{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
+    max-width: 200px;
+    text-align: center;
 }
 
 .info img{
-    width: 100px;
+    width:  auto;
     height: 100px;
+    object-fit: cover;
 }
 
-.info p{
-    width: 200px;
-    height: 50px;
+
+/*Top version style*/
+.head-top{
+    border-top: 1px solid black ;
+    padding-top: 20px;
 }
+
+.top{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(166, 212, 243);
+    gap: 52px;
+}
+
+.top img{
+    width:  auto;
+    height: 100px;
+    object-fit: cover;
+}
+
+.top .information{
+    border: 1px solid rgb(166, 212, 243);
+    max-width: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*syntax taken from 04-flex-information exercise*/
+/* link: https://github.com/TheOdinProject/css-exercises/tree/main/flex/04-flex-information*/
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
