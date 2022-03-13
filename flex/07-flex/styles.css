@@ -3,12 +3,15 @@
 
 
 /*--pre-style parameters--*/
+html, body{height: 100%;}
 body{
     /*alignment*/
-    height: 97vh;
     margin: 0;
     /*style*/
     /*border: 2px solid green;*/
+    /*flex*/
+    display: flex;
+    flex-direction: column;
 }
 ul{list-style: none;}
 a{text-decoration: none;}
@@ -110,10 +113,6 @@ a{text-decoration: none;}
 /*footer*/
 .footer{
     /*alignment*/
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom:0;
     margin: 0;
     padding: 20px;
     /*style*/
@@ -121,8 +120,9 @@ a{text-decoration: none;}
     background-color: #eeee;
 }
 
+/*
 .footer .style1{
-    /*alignment*/
+    /*alignment
     position: absolute;
     left:0;
     bottom:0;
@@ -130,6 +130,7 @@ a{text-decoration: none;}
     border-left: 8px solid black;
     border-right: 8px solid transparent;
 }
+*/
 
 
 
