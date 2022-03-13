@@ -1,0 +1,139 @@
+/*styles.css*/
+/*07-flex.html*/
+
+
+/*--pre-style parameters--*/
+body{
+    /*alignment*/
+    height: 97vh;
+    margin: 0;
+    /*style*/
+    /*border: 2px solid green;*/
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+
+
+/*--Content Styling--*/
+/*header*/
+.header{
+    /*alignment*/
+    margin:0;
+    padding: 8px;
+    /*style*/
+    background-color: purple;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/*content*/
+.content{
+    /*alignment*/
+    height: 92%;
+    gap: 8px;
+    /*style*/
+    /*border: 1px solid red;*/
+    /*flex*/
+    display: flex;
+}
+
+.content .menu{
+    /*alignment*/
+    margin: 0;
+    padding: 24px 24px 0 16px;
+    width: 20%;
+    /*style*/
+    background-color: blue;
+    color: white;
+    /*border: 1px solid black;*/
+    /*flex*/
+    flex: 0 1 auto;
+}
+
+.menu li{
+    /*alignment*/
+    margin-bottom: 16px;
+    /*style*/
+    font-family: monospace;
+    font-size: large;
+    font-weight: 600;
+}
+
+.content .pages{
+    /*alignment*/
+    padding: 16px;
+    gap: 16px;
+    /**style*/
+    /*border: 2px solid green;*/
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 0;
+}
+
+.pages .blocks{
+    /*alignment*/
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px;
+    /*style*/
+    display:flex;
+    flex-direction: column-reverse ;
+    border: 1px solid #eeee;
+}
+
+.pages div a{
+    padding: 8px;
+    border-radius: 8px;
+    /*style*/
+    text-align: center;
+    background-color: #eeee;
+    font-weight: 800;
+    color: rgb(0, 0, 0, 0.4)
+}
+
+.pages .pg-con{
+    /*alignment*/
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    /*style*/
+    background-color: rgba(136, 136, 136, 0.13);
+    /*flex*/
+    flex: 1 1 auto;
+}
+
+/*footer*/
+.footer{
+    /*alignment*/
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom:0;
+    margin: 0;
+    padding: 20px;
+    /*style*/
+    text-align: center;
+    background-color: #eeee;
+}
+
+.footer .style1{
+    /*alignment*/
+    position: absolute;
+    left:0;
+    bottom:0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-right: 8px solid transparent;
+}
+
+
+
+/*--style flow--*/
+/*alignment*/
+/*style*/
+/*flex*/
