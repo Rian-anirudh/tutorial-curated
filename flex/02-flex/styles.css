@@ -1,0 +1,68 @@
+/*styles.css: 02-felx.html*/
+ul{list-style: none}
+
+
+
+/*Styling using flex and css(margin)*/
+nav ul{
+    display: flex;  
+    /*flex-wrap: wrap;*/
+    background: rgb(252, 227, 182);
+    border: 2px solid rgb(253, 202, 106);
+    padding: 10px 0px;
+}
+
+nav li{
+    color:rgb(22, 63, 196);
+    background-color: white;
+    margin: 0px 10px;
+    height: 15px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.push{
+    margin-left: auto;
+}
+
+.logo{
+    color: maroon;
+    padding: 15px;
+    margin-left: auto;
+}
+
+
+
+
+/*Styling using only flex*/
+.header{
+    display:flex;
+    background: rgb(252, 227, 182);
+    border: 2px solid rgb(253, 202, 106);
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.header li{
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(22, 63, 196);
+    background: white;
+}
+
+.second{
+    background-color: white;
+    color: maroon;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+

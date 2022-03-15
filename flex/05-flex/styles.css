@@ -1,0 +1,102 @@
+/*styles.css*/
+html, body{
+    height: 100%;
+}
+
+body{
+    /*alignment*/
+    margin: 0;
+    /*style*/
+    color: #333;
+    background-color: #aaa;
+    font-family: Roboto, sans-serif;
+    /*flex*/
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.modal{
+    /*alignment*/
+    width:480px;
+    padding: 16px;
+    gap: 16px;
+    /*style*/
+    background-color: white;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /*flex*/
+    display:flex;
+}
+
+.modal .icon{
+    /*alignment*/
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    /*style*/
+    background-color: lavender;
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.container .header{
+    /*alignment*/
+    margin: 8px;
+    /*style*/
+    font-weight: 700;
+    font-size: 18px;
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .close-button{
+    /*alignment*/
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    /*style*/
+    color: #888;
+    background-color: #eee;
+    font-weight: 400;
+    font-size: 16px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text{
+    margin-bottom:16px;
+}
+
+.container button{
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+button.continue{
+    /*alignment*/
+    /*as in .continer button*/
+    /*style*/
+    color: white;
+    background: royalblue;
+    /*border: 1px solid royalblue;*/
+}
+
+button.cancel{
+    /*alignment*/
+    /*as in .continer button*/
+    /*style*/
+    color: royalblue;
+    background: white;
+    /*border: 1px solid #ddd;*/
+}
